@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-
 import '../model/reaction_model.dart';
 
 class ReactionButtonProvider extends ChangeNotifier {

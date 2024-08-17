@@ -24,7 +24,13 @@ class ReactionScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                   SizedBox(height: 30.h),
+                   const SizedBox(
+                     width: double.maxFinite,
+                     child: Image(
+                       fit:BoxFit.fill,
+                       image: AssetImage('assets/images/post_image.png'),
+                     ),
+                   ),
                    Padding(
                      padding:  EdgeInsets.symmetric(horizontal: 4.w),
                      child: Divider(color: AppColors.dividerColor),
